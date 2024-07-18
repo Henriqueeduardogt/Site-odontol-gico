@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica Sorriso Perfeito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica Odontológica Sorriso Perfeito</h1>
+        <p>Transformando sorrisos, melhorando vidas</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Na Clínica Odontológica Sorriso Perfeito, oferecemos serviços de qualidade para cuidar do seu sorriso. Com uma equipe de profissionais experientes e apaixonados, garantimos um atendimento personalizado e humanizado.</p>
+        </section>
+        <section id="services">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Limpeza e Profilaxia</li>
+                <li>Clareamento Dental</li>
+                <li>Implantes Dentários</li>
+                <li>Ortodontia</li>
+                <li>Próteses Dentárias</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Endereço: Rua dos Sorrisos, 123, Centro, Cidade</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Email: contato@sorrisoperfeito.com</p>
+        </section>
+        <section id="appointment">
+            <h2>Agende sua Consulta</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Clínica Odontológica Sorriso Perfeito. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
